@@ -68,15 +68,13 @@ header.sticky
 
 /* Navigasi */
 nav {
-/*  width: 1350px;*/
-width: 100%;
-max-width: 1500px;
-/* border: 1px solid black; */
-margin: 0 auto;
-display: flex;
-justify-content: space-around;
-align-items: center;
-background: transparent;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: transparent;
 }
 
 /* Navigasi Kiri Utama */
@@ -751,11 +749,16 @@ footer p{
     margin-right: auto;
     padding: 10px;
   }
-  
-  .content-kiri{
+
+  nav {
     width: 100%;
     max-width: 400px;
-    padding: 20px 2px 2px 20px;
+  }
+
+  .content-kiri{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 }
