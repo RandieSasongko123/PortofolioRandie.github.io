@@ -308,11 +308,31 @@ margin: 0 auto;
 
 .projects-detail{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
   margin-left: 15px;
   margin-right: 15px;
+}
+
+.informasi-project{
+  background: whitesmoke;
+  width: 100%;
+  color: black;
+  text-align: justify;
+  padding: 25px 10px 10px 10px;
+  border-radius: 2px;
+}
+
+.informasi-project a{
+  text-align: right;
+}
+
+.card-project{
+  width: 100%;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card-project{
@@ -367,7 +387,6 @@ td{
 
 .whatsapp, .facebook, .gmail, .github{
   display: flex;
-  margin-left: 4%;
   font-size: 4em;
   color: #161A1D;
   border-bottom: 2px solid black;
@@ -577,6 +596,10 @@ footer p{
     margin-right: auto;
   }
 
+  .projects-detail{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
 }
 
 /* Ukuran Mobile */
@@ -690,6 +713,10 @@ footer p{
     padding-bottom: 100px;
   }
 
+  .projects-detail{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   .informasi-project{
     background: whitesmoke;
     width: 100%;
@@ -708,6 +735,21 @@ footer p{
     max-width: 320px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .img-about{
+    width: 100%;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .whatsapp h1, .facebook h1, .email h1, .github h1{
+    width: 100%;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
   }
 
 }
