@@ -308,7 +308,7 @@ margin: 0 auto;
   text-align: center;
 }
 
-.judul_projects, .judul-contact, .judul-skill{
+.judul{
   padding-top: 5%;
   font-size: 64px;
   font-weight: bold;
@@ -680,7 +680,7 @@ footer p{
     margin-right: 8%;
   }
 
-  .judul_projects{
+  .judul{
     padding-top: 10%;
   }
 
@@ -735,6 +735,11 @@ footer p{
 
   .skill-spek {
     grid-template-columns: repeat(1,1fr);
+  }
+
+  .judul {
+    font-size: 32px;
+    margin-bottom: 10%;
   }
 
 }
