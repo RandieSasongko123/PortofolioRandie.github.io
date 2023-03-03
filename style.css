@@ -325,6 +325,14 @@ margin: 0 auto;
   margin-right: 15px;
 }
 
+<<<<<<< HEAD
+.project {
+  width: 90%;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
+  border-radius: 17px;
+=======
 .informasi-project{
   background: whitesmoke;
   width: 100%;
@@ -345,12 +353,35 @@ margin: 0 auto;
   margin-right: auto;
 }
 
-.project {
-  width: 90%;
-  cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.4);
-  color: black;
-  border-radius: 17px;
+.card-project{
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.img-project{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 200px;
+  background: #FD841F;
+  margin-bottom: -15px;
+  padding: 10px;
+}
+
+table{
+  width: 10%;
+  background: white;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+td{
+  padding: 20px 10px 10px 10px;
+  width: 30%;
+>>>>>>> db126b0b2b997d51dc1844fda93fff16eff156eb
   text-align: left;
   box-shadow: 10px 8px 1px rgba(228, 121, 32, 0.2);
   transition: 0.3s ease-in-out;
@@ -611,6 +642,11 @@ footer p{
     margin-right: auto;
   }
 
+  .projects-detail{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+<<<<<<< HEAD
   .skill-spek {
     grid-template-columns: repeat(2,1fr);
   }
@@ -738,3 +774,74 @@ footer p{
   }
 
 }
+=======
+
+  .android-language h1, .database-language h1, .website-language h1{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+  }
+
+  .android-language a, .database-language a, .website-language a{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer{
+    padding-bottom: 100px;
+  }
+
+  .projects-detail{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .informasi-project{
+    background: whitesmoke;
+    width: 100%;
+    color: black;
+    text-align: justify;
+    padding: 25px 10px 10px 10px;
+    border-radius: 2px;
+  }
+
+  .informasi-project a{
+    text-align: right;
+  }
+
+  .card-project{
+    width: 100%;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img-about{
+    width: 100%;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .whatsapp h1, .facebook h1, .email h1, .github h1{
+    width: 100%;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  }
+
+  nav {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .content-kiri{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+>>>>>>> db126b0b2b997d51dc1844fda93fff16eff156eb
