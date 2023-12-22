@@ -315,6 +315,11 @@ margin: 0 auto;
   margin-bottom: 5%;
 }
 
+.container-projects .section_projects a {
+  text-decoration: none;
+  
+}
+
 .projects-detail{
   position: relative;
   display: grid;
